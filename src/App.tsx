@@ -1,10 +1,10 @@
 import "./App.css"
-import LoginPage from "./pages/LoginPage"
+import AppRoutes from "./routes/AppRoutes"
 
 export default function App() {
   return (
     <>
-      <LoginPage />
+      <AppRoutes />;
     </>
   )
 }
